@@ -1,0 +1,109 @@
+body{
+    background:rgba(0,0,0,0.3) url("../img/tbg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    opacity: 0.9;
+    
+}
+.form_div{
+    margin: 5%;
+    align-self: center;
+    align-content:  center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    padding: 2%;
+    background-color: rgb(177, 209, 209);
+
+    color:black;
+    
+
+    
+}
+
+.form_field{
+    /* font-size: 20px; */
+    align-self: center;
+    align-content: center;
+    padding:2%;
+   
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=number],
+input[type=numbers]
+{
+    width:100%;
+    margin:5px;
+    padding: 12px 20px;
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+    width:100%;
+    margin:5px;
+    padding: 12px 20px;
+    display: inline-block;
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-color: rgb(12, 90, 155);
+    box-sizing: border-box;
+}
+button:hover{
+    opacity:0.8;
+}
+
+.prefer{
+    text-align: left;
+}
+
+.admin{
+  /* background-color: whitesmoke; */
+  display: flex;
+  margin-top:2%;
+  padding: 1%;
+  opacity: 1;
+  width:100%; 
+}
+
+ .admin_div_left{
+  
+  background-color: rgba(238, 241, 241, 0.85);
+  width: 80%;
+  margin-left: 0%;
+  margin-top:2%;
+  padding: 1%;
+  align-content: left;
+  display: inline-block;
+  flex:left;
+
+}
+.admin_button{
+  display:block;
+}
+
+.admin_button button{
+  float: left;
+  width:30%;
+  
+}
+.admin_div_right{
+  display:none;
+  opacity: 1;
+  background-color: rgba(238, 241, 241, 0.85);
+  width: 80%;
+  /* margin-right: 5%; */
+  margin-left: 5%;
+  margin-top:2%;
+  padding: 1%;
+  align-content: right;
+  display: inline-block;
+  flex:right;
+} 
